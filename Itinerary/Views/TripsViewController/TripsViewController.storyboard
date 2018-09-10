@@ -58,10 +58,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTs-lo-sMz" customClass="FloatingActionButton" customModule="Itinerary" customModuleProvider="target">
                                 <rect key="frame" x="305" y="588" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" name="Tint"/>
                                 <state key="normal" image="plus"/>
                                 <connections>
-                                    <segue destination="6r7-Mz-kre" kind="presentation" id="mhz-Xe-gsb"/>
+                                    <segue destination="6r7-Mz-kre" kind="presentation" identifier="toAddTripSegue" id="mhz-Xe-gsb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,9 +89,6 @@
         <image name="plus" width="512" height="512"/>
         <namedColor name="Accent">
             <color red="0.14900000393390656" green="0.20000000298023224" blue="0.22400000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="Tint">
-            <color red="1" green="0.24300000071525574" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
