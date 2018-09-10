@@ -55,11 +55,17 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTs-lo-sMz" customClass="FloatingActionButton" customModule="Itinerary" customModuleProvider="target">
+                                <rect key="frame" x="305" y="588" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="plus"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nfa-Uu-wGn"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="WTs-lo-sMz" id="GDB-Md-gGb"/>
                         <outlet property="tableView" destination="7tR-jT-E5r" id="HIf-gE-Tds"/>
                     </connections>
                 </viewController>
@@ -69,6 +75,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" width="512" height="512"/>
         <namedColor name="Accent">
             <color red="0.14900000393390656" green="0.20000000298023224" blue="0.22400000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

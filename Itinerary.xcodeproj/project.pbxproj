@@ -20,6 +20,8 @@
 		F2DABF8E214615970005CAB2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF8D214615970005CAB2 /* Theme.swift */; };
 		F2DABF9021461C330005CAB2 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2DABF8F214617F70005CAB2 /* FugazOne-Regular.ttf */; };
 		F2DABF9221461CAB0005CAB2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DABF9121461CAB0005CAB2 /* Colors.xcassets */; };
+		F2DABF94214623FF0005CAB2 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF93214623FF0005CAB2 /* UIButtonExtensions.swift */; };
+		F2DABF96214627060005CAB2 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF95214627060005CAB2 /* FloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F2DABF8D214615970005CAB2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F2DABF8F214617F70005CAB2 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FugazOne-Regular.ttf"; path = "../../../../../Library/Fonts/skyfonts-google/FugazOne-Regular.ttf"; sourceTree = "<group>"; };
 		F2DABF9121461CAB0005CAB2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F2DABF93214623FF0005CAB2 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		F2DABF95214627060005CAB2 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				F2DABF8A214613B90005CAB2 /* UIViewExtensions.swift */,
+				F2DABF93214623FF0005CAB2 /* UIButtonExtensions.swift */,
+				F2DABF95214627060005CAB2 /* FloatingActionButton.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 				F2DABF5C2145DFB70005CAB2 /* AppDelegate.swift in Sources */,
 				F2DABF722145E8D90005CAB2 /* TripFunctions.swift in Sources */,
 				F2DABF8E214615970005CAB2 /* Theme.swift in Sources */,
+				F2DABF94214623FF0005CAB2 /* UIButtonExtensions.swift in Sources */,
+				F2DABF96214627060005CAB2 /* FloatingActionButton.swift in Sources */,
 				F2DABF7B2145EDB80005CAB2 /* Data.swift in Sources */,
 				F2DABF832145F7D10005CAB2 /* TripsViewController.swift in Sources */,
 			);

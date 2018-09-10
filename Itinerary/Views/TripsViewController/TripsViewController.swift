@@ -11,6 +11,7 @@ import UIKit
 class TripsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var addButton: FloatingActionButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,8 @@ class TripsViewController: UIViewController {
         })
         
         view.backgroundColor = Theme.Background
+        //addButton.createFloatingActionButton()    //not needed bc addButtons TYPE and custom class
+    
     }
     
 }
