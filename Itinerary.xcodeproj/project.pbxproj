@@ -12,6 +12,7 @@
 		F2DABF662145DFC50005CAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DABF642145DFC50005CAB2 /* LaunchScreen.storyboard */; };
 		F2DABF702145E8CA0005CAB2 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF6F2145E8CA0005CAB2 /* TripModel.swift */; };
 		F2DABF722145E8D90005CAB2 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF712145E8D90005CAB2 /* TripFunctions.swift */; };
+		F2DABF7B2145EDB80005CAB2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DABF7A2145EDB80005CAB2 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F2DABF672145DFC50005CAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DABF6F2145E8CA0005CAB2 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		F2DABF712145E8D90005CAB2 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
+		F2DABF7A2145EDB80005CAB2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		F2DABF6D2145E8910005CAB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F2DABF7A2145EDB80005CAB2 /* Data.swift */,
 				F2DABF6E2145E8A40005CAB2 /* Trip */,
 			);
 			path = Model;
@@ -153,6 +156,7 @@
 				F2DABF702145E8CA0005CAB2 /* TripModel.swift in Sources */,
 				F2DABF5C2145DFB70005CAB2 /* AppDelegate.swift in Sources */,
 				F2DABF722145E8D90005CAB2 /* TripFunctions.swift in Sources */,
+				F2DABF7B2145EDB80005CAB2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

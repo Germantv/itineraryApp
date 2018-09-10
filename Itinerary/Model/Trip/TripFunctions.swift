@@ -15,6 +15,13 @@ class TripFunctions {
     
     static func readTrips() {
         
+        //adding mock data to tripModels array when calling readTrips()
+        if Data.tripModels.count == 0 {
+            Data.tripModels.append(TripModel(title: "Trip to Bali!"))
+            Data.tripModels.append(TripModel(title: "Mexico"))
+            Data.tripModels.append(TripModel(title: "France Trip!"))
+
+        }
     }
     
     static func updateTripModel(tripModel: TripModel) {
