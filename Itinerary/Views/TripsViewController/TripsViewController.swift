@@ -25,7 +25,7 @@ class TripsViewController: UIViewController {
             self?.tableView.reloadData()
         })
         
-        view.backgroundColor = Theme.Background
+        view.backgroundColor = Theme.backgroundColor
         //addButton.createFloatingActionButton()    //not needed bc addButtons TYPE and custom class
     
     }

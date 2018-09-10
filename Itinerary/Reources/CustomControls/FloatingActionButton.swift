@@ -13,7 +13,7 @@ class FloatingActionButton: UIButton {
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
-        layer.backgroundColor = Theme.Tint?.cgColor
+        layer.backgroundColor = Theme.tintColor?.cgColor
         layer.cornerRadius = frame.height / 2
         layer.shadowOpacity = 0.25
         layer.shadowRadius = 5
