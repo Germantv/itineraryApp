@@ -12,6 +12,7 @@ class TripsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var tripImageview: UIImageView!
     
     
     override func awakeFromNib() {
@@ -21,11 +22,13 @@ class TripsTableViewCell: UITableViewCell {
         cardView.addShadowAndRoundedCorners()
         titleLabel.font = UIFont(name: Theme.mainFontName, size: 45)
         cardView.backgroundColor = Theme.accent
+        tripImageview.layer.cornerRadius = cardView.layer.cornerRadius
         
     }
     
     func setup(tripModel: TripModel) {
         titleLabel.text = tripModel.title
+        tripImageview.image = tripModel.image
     }
 
 }
