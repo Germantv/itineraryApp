@@ -19,6 +19,9 @@ class TripsTableViewCell: UITableViewCell {
         // Initialization code
         
         cardView.addShadowAndRoundedCorners()
+        titleLabel.font = UIFont(name: Theme.mainFontName, size: 45)
+        cardView.backgroundColor = Theme.accent
+        
     }
     
     func setup(tripModel: TripModel) {
